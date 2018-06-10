@@ -1,0 +1,76 @@
+html, body, h1, p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+.container-nobootstrap {
+   height: 100%;
+   background-image: url('images/andre-benz-501829-unsplash.jpg');
+   background-repeat:  no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+p {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+.nav-holder {
+    position: relative;
+    left: 60%;
+    transform: translateY(-45px);
+}
+.nav-list li {
+    list-style: none;
+    color: white;
+    display: inline;
+    padding: 18px 18px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.nav-list li:hover {
+    color: gray;
+    background: white;  
+} 
+input[type=text] {
+    padding: 10px 10px;
+    border-radius: 80px;
+    position: relative;
+    left: 79%;
+    transform: translateY(-30px);
+    background: transparent;
+    color: white;
+    border: 2px solid white
+}
+.page-heading {
+    transform: translateX(-100px);
+}
+.page-heading p.heading{
+    text-align: right;
+    color: white;
+    font-size: 50px;    
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+blockquote {
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+.learn-more {
+    padding: 16px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 80px;
+    position: relative;
+    left: 43%;
+    transform: translateY(100px);
+}
