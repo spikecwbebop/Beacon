@@ -1,0 +1,2 @@
+# Beacon
+A Landing Page
